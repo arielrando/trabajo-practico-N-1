@@ -1,6 +1,6 @@
 package ar.edu.unlam.tallerweb;
 
-public class triangulo {
+public class Triangulo {
 
 	private Double lado1;
 	private Double lado2;
@@ -9,7 +9,7 @@ public class triangulo {
 	private Double area;
 	
 	
-	public triangulo (Double lado1, Double lado2, Double ladoBase) {
+	public Triangulo (Double lado1, Double lado2, Double ladoBase) {
 		
 		this.lado1 = lado1;
 		this.lado2 = lado2;
