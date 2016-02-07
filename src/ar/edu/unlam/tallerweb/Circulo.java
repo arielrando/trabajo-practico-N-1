@@ -1,11 +1,11 @@
 package ar.edu.unlam.tallerweb;
 
-public class circulo {
+public class Circulo {
 	
 	private Double radio;
 	private Double pi = 3.14;
 	
-	public circulo(Double radio, Double pi){
+	public Circulo(Double radio){
 		this.radio = radio;
 		
 	}
