@@ -7,17 +7,17 @@ public class circulo {
 	
 	public circulo(Double radio, Double pi){
 		this.radio = radio;
-		this.pi= pi;
+		
 	}
 	
 	public Double calcularPerimetroCirculo(){
 		
-		return 2 * this.pi * this.radio;
+		return 2 * pi * this.radio;
 	}
 	
 	public Double calcularAreaCirculo(){
 		
-		return this.pi * Math.pow(this.radio, 2);
+		return pi * Math.pow(this.radio, 2);
 		
 	}
 }
