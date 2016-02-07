@@ -6,7 +6,6 @@ public class Triangulo {
 	private Double lado2;
 	private Double ladoBase;
 	private Double semiperimetro;
-	private Double area;
 	
 	
 	public Triangulo (Double lado1, Double lado2, Double ladoBase) {
@@ -28,9 +27,9 @@ public class Triangulo {
 		
 		semiperimetro = (lado1+lado2+ladoBase)/2.0;
 		
-		area = Math.sqrt(semiperimetro*(semiperimetro-lado1)*(semiperimetro-lado2)*(semiperimetro-ladoBase));
+		return Math.sqrt(semiperimetro*(semiperimetro-lado1)*(semiperimetro-lado2)*(semiperimetro-ladoBase));
 		
-		return area;
+		
 		
 		
 	}
